@@ -13,3 +13,5 @@
 #
 # Crono.perform(TestJob).every 2.days, at: '15:30'
 #
+
+Crono.perform(UptimeMonitorJob).every 2.minutes
