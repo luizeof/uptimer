@@ -4,6 +4,8 @@ WORKDIR /tmp
 
 ENV ADDRESS "https://google.com"
 
+ENV SECRET_KEY_BASE "dd78deaf310bd9659853e5735e458a366136e1caa91a9075059cbf25fa2d230bc4d25866ed994568e85118ab2a181271246de963dd9a50508f1e9ffbf26f17c7"
+
 COPY Gemfile* ./
 
 RUN echo 'gem: --no-document' >> /.gemrc
