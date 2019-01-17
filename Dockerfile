@@ -1,4 +1,4 @@
-FROM ruby:2.3.8-jessie
+FROM ruby:2.3.7-jessie
 
 WORKDIR /tmp
 
